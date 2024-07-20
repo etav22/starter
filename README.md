@@ -40,3 +40,4 @@ The first command will rename the project to your desired name. The second comma
 ## Future Improvements
 
 - Semantically version the project with [python-semantic-release](https://python-semantic-release.readthedocs.io/en/latest/) package.
+- Cookiecutter template for project creation.
