@@ -16,7 +16,7 @@ I personally use this repo as it's a nice starting point for most new projects I
 
 To get started, you'll need to have the following installed on your machine:
 
-- Python 3.8+
+- Python 3.11+
 - Poetry
 - Make
 
@@ -24,7 +24,9 @@ With that, you should be good to go!
 
 ### Installation
 
-I recommend you fork this repo and then clone it down to your local machine. Once you have the repo locally, you can start by running the following commands:
+I recommend you fork this repo and then clone it down to your local machine.
+
+Once you have the repo locally, you can start by running the following commands:
 
 ```bash
 make install
