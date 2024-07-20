@@ -16,5 +16,4 @@ repos:
     hooks:
       - id: commitizen
         stages:
-          - post-commit
-          - push
+          - commit-msg
