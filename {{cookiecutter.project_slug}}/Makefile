@@ -7,6 +7,3 @@ make test:
 
 make lint:
 	poetry run pre-commit run --all-files
-
-make rename:
-	poetry run python rename.py $(new_name)
