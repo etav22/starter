@@ -36,8 +36,3 @@ make install
 The first command will rename the project to your desired name. The second command will install the project dependencies.
 > Note, if you don't want the base dependencies, feel free to adjust the pyproject.toml file to your needs.
 
-
-## Future Improvements
-
-- Semantically version the project with [python-semantic-release](https://python-semantic-release.readthedocs.io/en/latest/) package.
-- Cookiecutter template for project creation.

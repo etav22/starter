@@ -1,11 +1,11 @@
 [tool.poetry]
-name = "starter"
-version = "0.1.0"
+name = "{{cookiecutter.project_slug}}"
+version = "0.0.0"
 description = ""
-authors = ["Elias Tavarez <etav@umich.edu>"]
+authors = ["{{cookiecutter.full_name}} <{{cookiecutter.email}}>"]
 readme = "README.md"
 packages = [
-	{ include = "starter", from = "." }
+	{ include = "{{cookiecutter.project_slug}}", from = "." }
 ]
 
 [tool.poetry.dependencies]
@@ -17,6 +17,7 @@ pandas = "^2.2.2"
 ipykernel = "^6.29.5"
 loguru = "^0.7.2"
 toml = "^0.10.2"
+cookiecutter = "^2.6.0"
 
 
 [tool.poetry.group.test.dependencies]

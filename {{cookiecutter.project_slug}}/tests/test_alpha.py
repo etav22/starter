@@ -2,7 +2,7 @@
 from pytest import fixture
 
 from sklearn.linear_model import LogisticRegression
-from starter.alpha import load_data, train_model
+from {{ cookiecutter.project_slug }}.alpha import load_data, train_model
 
 
 @fixture
