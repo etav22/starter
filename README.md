@@ -24,20 +24,18 @@ With that, you should be good to go!
 
 ### Installation
 
-I recommend you fork this repo and then clone it down to your local machine.
-
-Once you have the repo locally, you can start by running the following commands:
+To install, you can use the cookiecutter template to create a new project. To do this, run the following command:
 
 ```bash
-make new_name=<your_project_name> rename
-make install
+cookiecutter https://github.com/etav22/starter.git --checkout feat/cookiecutter
 ```
 
-The first command will rename the project to your desired name. The second command will install the project dependencies.
-> Note, if you don't want the base dependencies, feel free to adjust the pyproject.toml file to your needs.
+Follow the prompt and then you can get started by running the following commands:
 
+```bash
+make install
+```
 
 ## Future Improvements
 
 - Semantically version the project with [python-semantic-release](https://python-semantic-release.readthedocs.io/en/latest/) package.
-- Cookiecutter template for project creation.
