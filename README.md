@@ -29,6 +29,8 @@ To install, you can use the cookiecutter template to create a new project. To do
 ```bash
 cookiecutter https://github.com/etav22/starter.git --checkout feat/cookiecutter
 ```
+> Note: If you want to use the `release` step of the actions template, you will have to
+> adjust the actions.yaml file and add your own secrets to the repository.
 
 Follow the prompt and then you can get started by running the following commands:
 
