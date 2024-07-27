@@ -24,7 +24,7 @@ With that, you should be good to go!
 
 ### Installation
 
-To install, you can use the cookiecutter template to create a new project. To do this, run the following command:
+To install, you can use the cookiecutter template to create a new project. To do this, make sure you are in a git tracked repo and run the following command:
 
 ```bash
 cookiecutter https://github.com/etav22/starter.git --checkout feat/cookiecutter
