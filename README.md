@@ -32,6 +32,17 @@ cookiecutter https://github.com/etav22/starter.git --checkout feat/cookiecutter
 > Note: If you want to use the `release` step of the actions template, you will have to
 > adjust the actions.yaml file and add your own secrets to the repository.
 
+After cookiecutting the repo, you will want to `cd` into the newly created directory and convert it to a git repo:
+
+```bash
+cd <project_name>
+git init
+git add .
+git commit -m "feat:initial commit"
+git remote add origin <your_repo_url>
+git push -u origin master
+```
+
 Follow the prompt and then you can get started by running the following commands:
 
 ```bash
