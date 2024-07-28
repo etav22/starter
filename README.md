@@ -43,7 +43,7 @@ git remote add origin <your_repo_url>
 git push -u origin master
 ```
 
-Follow the prompt and then you can get started by running the following commands:
+You can then install the project with the following command:
 
 ```bash
 make install
