@@ -46,7 +46,7 @@ jobs:
         run: |
           poetry run pytest
 
-{%- if cookiecutter.containerize -%}
+{%- if cookiecutter.docker_release -%}
   release:
     needs: test
     runs-on: ubuntu-latest
