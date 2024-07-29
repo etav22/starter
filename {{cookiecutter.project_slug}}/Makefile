@@ -1,6 +1,6 @@
 make install:
 	poetry install
-	poetry run pre-commit install --hook-type commit-msg
+	poetry run pre-commit install
 
 make test:
 	poetry run pytest

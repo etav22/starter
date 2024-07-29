@@ -4,9 +4,7 @@ version = "0.0.0"
 description = ""
 authors = ["{{cookiecutter.full_name}} <{{cookiecutter.email}}>"]
 readme = "README.md"
-packages = [
-	{ include = "{{cookiecutter.project_slug}}", from = "." }
-]
+packages = [{ include = "{{cookiecutter.project_slug}}", from = "." }]
 
 [tool.poetry.dependencies]
 python = "^3.11"
@@ -16,9 +14,6 @@ pandas = "^2.2.2"
 [tool.poetry.group.dev.dependencies]
 ipykernel = "^6.29.5"
 loguru = "^0.7.2"
-toml = "^0.10.2"
-cookiecutter = "^2.6.0"
-
 
 [tool.poetry.group.test.dependencies]
 pytest = "^8.3.1"
